@@ -1,0 +1,517 @@
+
+/* indexhtml */
+.body {
+    background-color: #fff7fb;
+    color: #5c4a4a;
+    font-family: Georgia, "Times New Roman", serif;
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    font-family: 'Poppins', sans-serif;
+}
+.brand-title, h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+
+.reveal {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: 1s;
+}
+
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+.box {
+    width: 80%;
+    margin: 120px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #f7d6e0;
+    text-align: center;
+    padding: 18px;
+    border-bottom: 2px solid #e8b7c8;
+}
+
+nav a {
+    font-family: 'Poppins', sans-serif;
+    color: #7a4e5d;
+    text-decoration: none;
+    margin: 0 18px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #c06c84;
+}
+
+.hero {
+    background-image: url("images/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    text-align: center;
+    color: white;
+    padding-top: 180px;
+}
+
+.hero h1 {
+    font-size: 55px;
+    margin-bottom: 10px;
+    background-color: rgba(180, 120, 140, 0.35);
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    background-color: rgba(255, 240, 245, 0.7);
+    color: #7a4e5d;
+    display: inline-block;
+    padding: 10px 18px;
+    border-radius: 20px;
+}
+.hero-text {
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+    padding: 40px 30px;
+    border-radius: 20px;
+
+    background-image: linear-gradient(rgba(255,255,255,0.35), rgba(255,255,255,0.35)), url("https://i.pinimg.com/1200x/b5/b6/35/b5b635a609c193b94eb15937bb290f5e.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.section {
+    background-color: #fffdfd;
+    width: 80%;
+    margin: 40px auto;
+    padding: 30px;
+    border: 2px solid #f0d3dc;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(180, 150, 160, 0.2);
+}
+
+.section h2 {
+    color: #b56576;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section p {
+    font-size: 18px;
+    line-height: 1.7;
+    text-align: center;
+}
+
+.main-image {
+    display: block;
+    width: 70%;
+    margin: 20px auto;
+    border-radius: 18px;
+    border: 4px solid #f3c8d7;
+}
+
+.main-image:hover {
+    opacity: 0.9;
+}
+
+.gallery {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.gallery img {
+    width: 220px;
+    margin: 12px;
+    border-radius: 15px;
+    border: 3px solid #f7d6e0;
+}
+
+.gallery img:hover {
+    transform: scale(1.03);
+}
+
+.button {
+    background-color: #e7b8c8;
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #d98aa3;
+}
+
+footer {
+    background-color: #f7d6e0;
+    color: #7a4e5d;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    border-top: 2px solid #e8b7c8;
+}
+/* diorhtml */
+.brand-title {
+    text-align: center;
+    font-size: 48px;
+    margin: 40px 0;
+    color: #b56576;
+}
+.brand-sections {
+    list-style: none;
+    padding: 0;
+}
+
+.brand-sections li {
+    margin: 30px auto;
+}
+
+.box {
+    background-color: #ffe4ec;
+    padding: 25px;
+    border-radius: 15px;
+    max-width: 900px;
+}
+
+.reveal {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.runway-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.runway-grid img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+}
+
+.signature-list img{
+    width: auto;
+    height: 280px;
+    object-fit: contain;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.dior-parallax {
+    background-image: url("https://diorama.dam-broadcast.com/cdn-cgi/image/width=1600,format=auto/pm_11872_1010_1010054-fx3d2a9vdm-whr.jpg");
+    min-height: 420px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px auto;
+}
+
+.dior-parallax-text {
+    background-color: rgba(255, 255, 255, 0.75);
+    color: #7a6a3a;
+    padding: 20px 30px;
+    border-radius: 18px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    max-width: 700px;
+}
+
+.dior-parallax-text h2 {
+    margin-bottom: 10px;
+    font-size: 32px;
+}
+
+.dior-parallax-text p {
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.video-box iframe {
+    width: 100%;
+    max-width: 900px;
+    height: 500px;
+    border-radius: 15px;
+}
+
+/* DIOR - pastel yellow */
+.dior-page {
+    background-color: #fff9e6;
+    color: #7a6a3a;
+}
+
+.dior-page nav {
+    background-color: #fff1b8;
+    border-bottom: 2px solid #f5d97a;
+}
+
+.dior-page nav a {
+    color: #7a6a3a;
+}
+
+.dior-page .brand-title {
+    color: #c9a227;
+}
+
+.dior-page .box {
+    background-color: #fffdf4;
+    border: 2px solid #f5e6a3;
+}
+
+/* Chanel */
+.chanel-parallax {
+    background-image: url("https://runwaymagazines.com/wp-content/uploads/2025/03/Chanel-Fall-Winter-2025-2026-Ready-to-Wear-Runway-Magazine-2-768x1135.jpg");
+    min-height: 420px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px auto;
+}
+
+.chanel-parallax-text {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #3a4a6a;
+    padding: 20px 30px;
+    border-radius: 18px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    max-width: 700px;
+}
+
+/* CHANEL - pastel blue */
+.chanel-page {
+    background-color: #f4f8ff;
+    color: #3a4a6a;
+}
+
+.chanel-page nav {
+    background-color: #dce8ff;
+    border-bottom: 2px solid #b7ccf5;
+}
+
+.chanel-page nav a {
+    color: #3a4a6a;
+}
+
+.chanel-page .brand-title {
+    color: #5b7bd5;
+}
+
+.chanel-page .box {
+    background-color: #ffffff;
+    border: 2px solid #cddcff;
+}
+
+/* YSL */
+.ysl-parallax {
+    background-image: url("https://theimpression.com/wp-content/uploads/2026/03/saint-laurent-atm-f26-007-1.jpg");
+    min-height: 420px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px auto;
+}
+
+.ysl-parallax-text {
+    background-color: rgba(255, 255, 255, 0.75);
+    color: #5a5245;
+    padding: 20px 30px;
+    border-radius: 18px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    max-width: 700px;
+}
+
+/* YSL - ivory tone */
+.ysl-page {
+    background-color: #f8f5ef;
+    color: #5a5245;
+}
+
+.ysl-page nav {
+    background-color: #ece6da;
+    border-bottom: 2px solid #d8d0c0;
+}
+
+.ysl-page nav a {
+    color: #5a5245;
+}
+
+.ysl-page .brand-title {
+    color: #8a7d6b;
+}
+
+.ysl-page .box {
+    background-color: #ffffff;
+    border: 2px solid #e2dbcf;
+}
+
+/* Gallery */
+
+.gallery-page .gallery-header {
+    text-align: center;
+    padding: 60px 20px 30px;
+}
+
+.gallery-page .gallery-header h1 {
+    font-family: "Georgia", "Times New Roman", serif;
+    font-size: 48px;
+    color: #b76e79;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+.gallery-page .gallery-header p {
+    font-family: "Georgia", "Times New Roman", serif;
+    font-size: 18px;
+    color: #7a5c61;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.gallery-section-title {
+    text-align: center;
+    font-family: "Georgia", "Times New Roman", serif;
+    font-size: 34px;
+    color: #b76e79;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.gallery-section-title::after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 2px;
+    background-color: #d8a7b1;
+    margin: 10px auto 0;
+}
+
+.gallery-page .gallery-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 30px auto 80px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.gallery-page .gallery-item {
+    background-color: #ffffff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.gallery-page .gallery-item:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.gallery-page .gallery-item img {
+    width: 100%;
+    height: 480px;
+    object-fit: cover;
+    display: block;
+}
+
+.gallery-page .gallery-item p {
+    font-family: "Georgia", "Times New Roman", serif;
+    text-align: center;
+    font-size: 17px;
+    padding: 18px 15px;
+    margin: 0;
+    color: #6b555a;
+    background-color: #fffdfd;
+}
+
+.gallery-page .gallery-ending {
+    text-align: center;
+    font-family: "Georgia", "Times New Roman", serif;
+    font-size: 20px;
+    color: #9a6f77;
+    margin: 20px auto 70px;
+    font-style: italic;
+    padding: 0 20px;
+}
+
+@media (max-width: 900px) {
+    .gallery-page .gallery-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .gallery-page .gallery-header h1 {
+        font-size: 36px;
+    }
+
+    .gallery-section-title {
+        font-size: 28px;
+    }
+
+    .gallery-page .gallery-container {
+        grid-template-columns: 1fr;
+    }
+
+    .gallery-page .gallery-item img {
+        height: 350px;
+    }
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Fashion Brands</title>
+<link rel="stylesheet" href="stylesheet.css">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="dior.html">Dior</a>
+    <a href="chanel.html">Chanel</a>
+    <a href="ysl.html">YSL</a>
+    <a href="gallery.html">Gallery</a>
+</nav>
+
+
+<div class="hero">
+    <div class="hero-text">
+    <h1>Favorite Fashion Brands</h1>
+    <p>Explore Dior, Chanel, and YSL
+        <br>
+        <br>
+        Scroll down to see more
+    </p>
+    </div>
+</div>
+
+<br>
+<div class="box reveal">
+<h2><strong>Welcome to my fashion website</strong></h2>
+<p>This website introduces the famous fashion brands, including Dior, Chanel, and YSL.</p>
+<p>Each pages shows different information of each brands.</p>
+</div>
+
+<div class="box reveal">
+    <h2><strong>Featured Brands</strong></h2>
+    <p><em>Dior</em></p>
+    <p><em>Chanel</em></p>
+    <p><em>YSL</em></p>
+</div>
+
+<div class="box reveal">
+<h2><strong>Contact</strong></h2>
+<p>Email: 125-skim3@sd43.bc.ca</p>
+<p>Instagram: @hynegirl</p>
+</div>
+
+<script>
+window.addEventListener("scroll", function() {
+    var boxes = document.querySelectorAll(".reveal");
+
+    for (var i = 0; i < boxes.length; i++) {
+        var windowHeight = window.innerHeight;
+        var boxTop = boxes[i].getBoundingClientRect().top;
+
+        if (boxTop < windowHeight - 100) {
+            boxes[i].classList.add("active");
+        }
+    }
+});
+</script>
+
+</body>
+</html>
+
+

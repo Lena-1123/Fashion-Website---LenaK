@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>YSL</title>
+<link rel="stylesheet" href="stylesheet.css">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="dior.html">Dior</a>
+    <a href="chanel.html">Chanel</a>
+    <a href="ysl.html">YSL</a>
+    <a href="gallery.html">Gallery</a>
+</nav>
+
+
+<body class="ysl-page">
+
+<h1 class="brand-title">Yves Saint Laurent</h1>
+
+<div class="ysl-parallax">
+    <div class="ysl-parallax-text">
+        <h2>YSL Modern Edge</h2>
+        <p>YSL combines bold style with modern elegance and powerful runway aesthetics.</p>
+    </div>
+</div>
+
+<ul class="brand-sections">
+
+ <li class="box reveal">
+<h3>Founder</h3>
+<p><strong>Yves Henri Donat Mathieu-Saint-Laurent</strong> or YSL, was a French fashion designer who, in 1962, founded his eponymous fashion label. He is regarded as being among the foremost fashion designers of the twentieth century.</p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Yves_Saint-Laurent_at_his_old_studio_of_the_same_name%2C_1961_%28cropped%29.jpg/500px-Yves_Saint-Laurent_at_his_old_studio_of_the_same_name%2C_1961_%28cropped%29.jpg">
+</li>
+<br>
+
+<li class="box reveal">
+<h3>Brand Info</h3>
+<p>Yves Saint Laurent, also known as YSL, is a French luxury fashion house founded in 1961.
+The brand is known for modern designs and elegant tailoring.</p>
+</li>
+<br>
+
+<li class="box reveal">
+<h3>Runways</h3>
+<p>YSL runway shows often present bold and modern fashion with strong silhouettes.
+The brand mixes elegance with edgy and contemporary style..</p>
+<br>
+<div class="runway-grid">
+    <img src="https://theimpression.com/wp-content/uploads/2026/03/saint-laurent-atm-f26-007-1.jpg" alt="Runway 1">
+    <img src="https://theimpression.com/wp-content/uploads/2026/03/umb00305-11892389.jpg" alt="Runway 2">
+    <img src="https://theimpression.com/wp-content/uploads/2026/01/saint-laurent-review-image.jpg" alt="Runway 3">
+    <img src="https://theimpression.com/wp-content/uploads/2025/03/fio00523-11632898.jpg" alt="Runway 4">
+     <img src="https://theimpression.com/wp-content/uploads/2025/01/Saint-Laurent-Mens-fall-2025-fashion-show-the-impression-015.jpg" alt="Runway 5">
+    <img src="https://theimpression.com/wp-content/uploads/2024/09/_oby0724-11463438.jpg" alt="Runway 6">
+</div>
+</li>
+<br>
+
+<li class="box reveal">
+<h3>Signature Items</h3>
+<p>Some famous YSL items include the Le Smoking tuxedo suit,
+YSL logo bags, luxury perfumes, and cosmetics.
+<br>Click on the images to connect to the official website.
+</p>
+<div class="signature-list">
+<a href="https://www.ysl.com/en-ca/pr/mini-le-5-a-7-in-smooth-leather-7103182R20W1000.html">
+<img src="https://saint-laurent.dam.kering.com/m/44501b3596241cd9/Medium2-7103182R20W1000_A.jpg?v=3">
+</a>
+<a href="https://www.ysl.com/en-ca/search?q=perfumes">
+<img src="https://saint-laurent.dam.kering.com/m/546280467e9dbaad/Medium2-523823999999942_A.jpg?v=6">
+</a>
+</li>
+</ul>
+
+<script>
+window.addEventListener("scroll", revealBoxes);
+window.addEventListener("load", revealBoxes);
+
+function revealBoxes() {
+    let reveals = document.querySelectorAll(".reveal");
+
+    for (let i = 0; i < reveals.length; i++) {
+        let windowHeight = window.innerHeight;
+        let elementTop = reveals[i].getBoundingClientRect().top;
+        let elementVisible = 100;
+
+        if (elementTop < windowHeight - elementVisible) {
+            reveals[i].classList.add("active");
+        }
+    }
+}
+</script>
+
+</body>
+</html>
